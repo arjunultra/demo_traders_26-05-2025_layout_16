@@ -111,7 +111,8 @@ $page = "contact";
                                         <li class="hvr-grow"><span class="text-warning">General:</span> <a
                                                 href="mailto:hello@sparkblast.com"
                                                 class="text-white">hello@sparkblast.com</a></li>
-                                        <li class="hvr-grow">Wholesale: <a href="mailto:sales@sparkblast.com"
+                                        <li class="hvr-grow"><span class="text-warning">Wholesale:</span> <a
+                                                href="mailto:sales@sparkblast.com"
                                                 class="text-white">sales@sparkblast.com</a></li>
                                     </ul>
                                 </div>
@@ -260,7 +261,7 @@ $page = "contact";
         </div>
     </div>
     <div class="fixed point w0">
-        <a href="https://api.whatsapp.com/send?phone=91">
+        <a href="https://api.whatsapp.com/send?phone=919999999999">
             <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
         </a>
     </div>
@@ -268,12 +269,12 @@ $page = "contact";
         <span class="time-of-year">
             <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91
+                <i class="fa fa-phone text-white"></i> +91 99999 99999
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+91">
+        <a href="tel:+919999999999">
             <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
         </a>
     </div>

@@ -59,3 +59,121 @@ document.addEventListener("DOMContentLoaded", () => {
         new WOW().init();
     });
 });
+// index counter odometer
+document.addEventListener('DOMContentLoaded', function() {
+    const indexCounterSection = document.querySelector('.index-counter');
+    if (!indexCounterSection) return; // Exit if section doesn't exist
+    // Initialize odometer options
+    window.odometerOptions = {
+        auto: false, // We'll trigger manually
+        format: '(,ddd).dd',
+        duration: 2000
+    };
+
+    // Function to initialize counters when in view
+    function initCounters() {
+        const counters = document.querySelectorAll('.odometer');
+        counters.forEach(counter => {
+            const finalValue = parseInt(counter.getAttribute('data-odometer-final'));
+            const od = new Odometer({
+                el: counter,
+                value: 0
+            });
+            od.update(finalValue);
+        });
+    }
+
+    // Initialize when section comes into view
+    const counterSection = document.querySelector('.index-counter');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                initCounters();
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    observer.observe(counterSection);
+});
+// swiper.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if Swiper is loaded
+    if (typeof Swiper === 'undefined') {
+        console.error('Swiper.js is not loaded. Please ensure Swiper is included in your project.');
+        return;
+    }
+  // Initialize Swiper with custom effects
+  const brandSwiper = new Swiper('.brands-swiper', {
+      // Custom parameters
+      slidesPerView: 1,
+      spaceBetween: 20,
+      centeredSlides: true,
+      loop: true,
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+      },
+      grabCursor: true,
+      breakpoints: {
+          576: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+          },
+          768: {
+              slidesPerView: 4,
+              spaceBetween: 25,
+          },
+          992: {
+              slidesPerView: 5,
+              spaceBetween: 30,
+          },
+          1200: {
+              slidesPerView: 6,
+              spaceBetween: 30,
+          }
+      },
+      // Custom navigation
+      navigation: {
+          nextEl: '.brands-swiper-next',
+          prevEl: '.brands-swiper-prev',
+      },
+      // Custom transition effect
+      on: {
+          init: function() {
+              animateSlides(this.slides[this.activeIndex], true);
+          },
+          slideChange: function() {
+              this.slides.forEach((slide, index) => {
+                  animateSlides(slide, index === this.activeIndex);
+              });
+          }
+      }
+  });
+  
+  // Custom slide animation function
+  function animateSlides(slide, isActive) {
+      const card = slide.querySelector('.brands-section-card');
+      if (isActive) {
+          card.style.transform = 'scale(1.05)';
+          card.style.boxShadow = '0 15px 30px rgba(0, 0, 0, 0.1)';
+          card.querySelector('img').style.filter = 'grayscale(0%)';
+          card.querySelector('img').style.opacity = '1';
+      } else {
+          card.style.transform = '';
+          card.style.boxShadow = '';
+          card.querySelector('img').style.filter = 'grayscale(100%)';
+          card.querySelector('img').style.opacity = '0.7';
+      }
+  }
+  
+  // Hover pause functionality
+  const swiperContainer = document.querySelector('.brands-swiper');
+    if (!swiperContainer) return; // Exit if swiper container doesn't exist
+  swiperContainer.addEventListener('mouseenter', () => {
+      brandSwiper.autoplay.stop();
+  });
+  swiperContainer.addEventListener('mouseleave', () => {
+      brandSwiper.autoplay.start();
+  });
+});

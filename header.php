@@ -44,7 +44,7 @@
                     <div class="row">
                         <!-- Address Box -->
                         <div class="col-lg-4 col-md-4 col-12 mb-3 mb-md-0 wow fadeIn" data-wow-delay="0.2s">
-                            <div class="info-box hvr-float-shadow p-3 bg-smoky rounded">
+                            <div class="info-box hvr-float-shadow p-3 rounded">
                                 <div class="d-flex align-items-center">
                                     <div class="info-icon mr-3">
                                         <i class="bi bi-geo-alt-fill text-purple display-5"></i>
@@ -59,7 +59,7 @@
 
                         <!-- Contact Box -->
                         <div class="col-lg-4 col-md-4 col-12 mb-3 mb-md-0 wow fadeIn" data-wow-delay="0.4s">
-                            <div class="info-box hvr-float-shadow p-3 bg-smoky rounded">
+                            <div class="info-box hvr-float-shadow p-3 rounded">
                                 <div class="d-flex align-items-center">
                                     <div class="info-icon mr-3">
                                         <i class="bi bi-telephone-fill text-red display-5"></i>
@@ -74,7 +74,7 @@
 
                         <!-- Hours Box -->
                         <div class="col-lg-4 col-md-4 col-12 wow fadeIn" data-wow-delay="0.6s">
-                            <div class="info-box hvr-float-shadow p-3 bg-smoky rounded">
+                            <div class="info-box hvr-float-shadow p-3 rounded">
                                 <div class="d-flex align-items-center">
                                     <div class="info-icon mr-3">
                                         <i class="bi bi-clock-fill text-black display-5"></i>

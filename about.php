@@ -40,80 +40,100 @@
             title="Demo Traders">
     </section>
     <!-- about intro -->
-    <section class="about-intro pad">
-        <div class="container-fluid px-5">
-            <div class="row about-intro-content align-items-center">
-                <!-- Left Content Column -->
-                <div class="col-12 col-lg-6 about-intro-left">
-                    <div class="about-intro-header mb-4">
-                        <span class="about-intro-subtitle">OUR STORY</span>
-                        <h1 class="about-intro-title">Illuminating Moments <span class="text-highlight">Since
-                                1998</span></h1>
-                    </div>
+    <!-- Our Story Section -->
+    <section class="our-story">
+        <div class="container">
+            <!-- Story Content Row -->
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="story-content wow fadeInLeft" data-wow-duration="1s">
+                        <h2 class="section-title text-red">Our Story</h2>
+                        <p class="section-subtitle">Illuminating Celebrations Since 2005</p>
 
-                    <div class="about-intro-text">
-                        <p class="about-intro-description">At Demo Traders, we believe every celebration deserves a
-                            spectacular finish. From humble beginnings as a family business to becoming one of India's
-                            premier fireworks suppliers, we've dedicated ourselves to bringing joy through light and
-                            sound for over two decades.</p>
+                        <p class="story-text">
+                            What began as a <span class="story-highlight">passionate dream</span> in a small warehouse
+                            has
+                            transformed into one of the region's most trusted fireworks distributors. For nearly three
+                            decades,
+                            we've been dedicated to bringing joy, wonder, and spectacular moments to communities across
+                            the nation.
+                        </p>
 
-                        <div class="about-intro-quote">
-                            <i class="bi bi-quote text-danger"></i>
-                            <blockquote>Our passion is creating memorable moments through the art of pyrotechnics, with
-                                safety and quality as our guiding principles.</blockquote>
-                            <i class="bi bi-quote text-danger"></i>
-                            <span class="quote-author">— John Doe, Founder</span>
-                        </div>
+                        <p class="story-text">
+                            From humble beginnings with just a handful of sparklers to becoming a comprehensive
+                            wholesale and
+                            retail powerhouse, our journey has been fueled by an unwavering commitment to <span
+                                class="story-highlight">
+                                quality, safety, and customer satisfaction</span>. We've witnessed countless
+                            celebrations, from
+                            intimate backyard gatherings to grand municipal displays.
+                        </p>
 
-                        <div class="about-intro-mission mt-4">
-                            <h3 class="about-intro-mission-title">Our Mission</h3>
-                            <p>To provide safe, environmentally-conscious fireworks that create unforgettable
-                                experiences while maintaining the highest standards of customer service and product
-                                excellence.</p>
-                        </div>
-                    </div>
-
-                    <div class="about-intro-cta">
-                        <a href="products.php" class="about-intro-button">
-                            <span>Explore Our Collection</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                        <p class="story-text">
+                            Today, we proudly serve over 500 retailers nationwide while maintaining our boutique
+                            approach to
+                            customer service. Every firework we distribute carries with it our promise of excellence and
+                            our
+                            dedication to making your celebrations truly unforgettable.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Right Stats Column -->
-                <div class="col-12 col-lg-6 about-intro-right">
-                    <div class="about-intro-image">
-                        <img src="images/about-intro.webp" alt="Demo Traders Showroom" class="img-fluid">
-                        <div class="about-intro-image-overlay">
-                            <span>Premium Firework Experience</span>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="story-image-container wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <img src="images/story-image.webp" alt="Fireworks display over city skyline"
+                            class="story-image img-fluid">
+                        <div class="story-image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Values Section -->
+            <div class="values-section">
+                <h3 class="values-title wow fadeInUp" data-wow-duration="1s">Our Core Values</h3>
+
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <div class="value-icon vision-icon">
+                                <i class="bi bi-eye"></i>
+                            </div>
+                            <h4 class="value-title">Vision</h4>
+                            <p class="value-description">
+                                To be the leading fireworks distributor that transforms ordinary moments into
+                                extraordinary
+                                memories, while setting the gold standard for safety and innovation in the pyrotechnics
+                                industry.
+                            </p>
                         </div>
                     </div>
 
-                    <div class="about-intro-stats row">
-                        <div class="col-lg-4 col-md-4 col-12 about-intro-stat">
-                            <div class="stat-icon"><i class="fas fa-fire"></i></div>
-                            <div class="stat-number"><span class="odometer" data-count="1500">0</span></div>
-                            <div class="stat-label">Happy Customers</div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-12 about-intro-stat">
-                            <div class="stat-icon"><i class="fas fa-rocket"></i></div>
-                            <div class="stat-number"><span class="odometer" data-count="300">0</span></div>
-                            <div class="stat-label">Product Types</div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-12 about-intro-stat">
-                            <div class="stat-icon"><i class="fas fa-award"></i></div>
-                            <div class="stat-number"><span class="odometer" data-count="25">0</span></div>
-                            <div class="stat-label">Years of Trust</div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                            <div class="value-icon mission-icon">
+                                <i class="bi bi-bullseye"></i>
+                            </div>
+                            <h4 class="value-title">Mission</h4>
+                            <p class="value-description">
+                                We provide premium quality fireworks and exceptional service to retailers and consumers,
+                                ensuring every celebration is safe, spectacular, and memorable while fostering long-term
+                                partnerships.
+                            </p>
                         </div>
                     </div>
 
-                    <div class="about-intro-certifications">
-                        <div class="cert-title">Safety Certified</div>
-                        <div class="cert-badges">
-                            <span class="cert-badge"><i class="bi bi-patch-check-fill"></i>Licensed Reseller</span>
-                            <span class="cert-badge"><i class="bi bi-shield-fill-check"></i> PESO Approved</span>
-                            <span class="cert-badge"><i class="bi bi-award-fill"></i> Green Crackers</span>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <div class="value-icon values-icon">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <h4 class="value-title">Values</h4>
+                            <p class="value-description">
+                                Safety first, quality always, and customer satisfaction above all. We believe in
+                                integrity,
+                                innovation, and building lasting relationships that light up communities across the
+                                nation.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -122,176 +142,273 @@
     </section>
     <!-- second section -->
     <!-- About Page Parallax Section -->
-    <section class="about-parallax-section">
-        <div class="about-parallax-wave-top">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,192L48,181.3C96,171,192,149,288,138.7C384,128,480,128,576,149.3C672,171,768,213,864,224C960,235,1056,213,1152,192C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                </path>
-            </svg>
+    <!-- Hero Parallax Section -->
+    <section class="hero-showcase">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-md-12 col-lg-12 text-center">
+                    <div class="hero-content-wrapper">
+                        <!-- Logo with animated glow -->
+                        <div class="logo-container wow zoomIn" data-wow-duration="1.5s">
+                            <img class="hero-logo" src="images/logo.png" alt="PyroSpectacular Logo">
+                            <div class="logo-glow-ring"></div>
+                        </div>
 
-        </div>
+                        <!-- Main Heading with typing effect -->
+                        <h1 class="hero-main-title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.3s">
+                            Ignite Spectacular Moments with
+                            <span class="title-highlight">Professional Fireworks</span>
+                        </h1>
 
-        <div class="about-parallax-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 about-parallax-text order-lg-1 order-md-2 order-2">
-                        <div class="about-parallax-heading wow fadeInUp">
-                            <h2 class="gradient-text">Premium Quality Fireworks</h2>
-                            <div class="about-parallax-separator"></div>
-                            <p class="about-parallax-desc">Experience the magic of celebration with our extensive
-                                collection of high-quality fireworks. We pride ourselves on offering premium products at
-                                competitive prices throughout India.</p>
-                            <div class="about-parallax-features">
-                                <div class="about-feature-item">
-                                    <i class="bi bi-patch-check"></i>
-                                    <span>Quality Assured</span>
-                                </div>
-                                <div class="about-feature-item">
-                                    <i class="bi bi-truck-front-fill"></i>
-                                    <span>Fast Delivery</span>
-                                </div>
-                                <div class="about-feature-item">
-                                    <i class="bi bi-wallet-fill"></i>
-                                    <span>Best Prices</span>
-                                </div>
+                        <!-- Subtitle with animated badges -->
+                        <div class="hero-features wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <div class="feature-badge">
+                                <i class="bi bi-award"></i>
+                                <span>Industry Leading Quality</span>
                             </div>
-                            <div class="btn-container text-center text-lg-start">
-                                <a href="products.php" class="about-parallax-btn">View Catalog</a>
+                            <div class="feature-badge">
+                                <i class="bi bi-lightning"></i>
+                                <span>Explosive Variety</span>
+                            </div>
+                            <div class="feature-badge">
+                                <i class="bi bi-shield-check"></i>
+                                <span>Safety Certified</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 about-parallax-image order-lg-2 order-md-1 order-1">
-                        <div class="about-image-container">
-                            <img src="images/about-three.webp" alt="Premium Fireworks Collection" class="img-fluid">
-                            <div class="about-image-badge">
-                                <span class="badge-text">BEST SELLER</span>
-                            </div>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-cta-container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                            <a href="products.php" class="primary-cta-btn hvr-pulse-grow">
+                                <i class="bi bi-stars"></i>
+                                <span>Discover Our Arsenal</span>
+                            </a>
+                            <a href="contact.php" class="secondary-cta-btn hvr-outline-out">
+                                <i class="bi bi-telephone"></i>
+                                <span>Get Quote</span>
+                            </a>
+                        </div>
+
+                        <!-- Floating Elements -->
+                        <div class="floating-spark spark-1">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="floating-spark spark-2">
+                            <i class="bi bi-diamond-fill"></i>
+                        </div>
+                        <div class="floating-spark spark-3">
+                            <i class="bi bi-circle-fill"></i>
+                        </div>
+                        <div class="floating-spark spark-4">
+                            <i class="bi bi-triangle-fill"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="about-parallax-wave-bottom">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,64L48,96C96,128,192,192,288,192C384,192,480,128,576,106.7C672,85,768,107,864,144C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-                </path>
-            </svg>
-        </div>
+        <!-- Animated Background Elements -->
+        <div class="bg-firework firework-1"></div>
+        <div class="bg-firework firework-2"></div>
+        <div class="bg-firework firework-3"></div>
     </section>
     <!-- about three -->
     <!-- Why Choose Us Section -->
-    <section class="whychoose-us py-5">
+    <!-- Why Choose Us Section -->
+    <section class="excellence-showcase">
         <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Why Choose <span class="highlight-text">Demo Traders</span></h2>
-                    <div class="section-divider"><span><i class="bi bi-stars"></i></span></div>
-                    <p class="section-subtitle">Experience premium quality fireworks backed by our commitment to
-                        excellence and safety</p>
+            <!-- Section Header -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8 text-center">
+                    <div class="section-header wow fadeInDown" data-wow-duration="1s">
+                        <span class="section-badge">Excellence Defined</span>
+                        <h2 class="section-main-title">
+                            Why <span class="title-accent">Demo Traders</span> Stands Above The Rest
+                        </h2>
+                        <div class="title-decoration">
+                            <div class="decoration-line"></div>
+                            <div class="decoration-icon">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <div class="decoration-line"></div>
+                        </div>
+                        <p class="section-description">
+                            Discover the unmatched advantages that make us the preferred choice for fireworks
+                            enthusiasts and professionals nationwide
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="row">
-                <!-- Feature Box 1 -->
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-award"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Premium Quality</h3>
-                            <p>We source only the highest quality fireworks from trusted manufacturers around the world.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature Box 2 -->
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-shield-check"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Safety First</h3>
-                            <p>All our products undergo rigorous safety testing to ensure a worry-free celebration.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature Box 3 -->
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-tag"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Competitive Pricing</h3>
-                            <p>Enjoy wholesale prices for both retail customers and bulk buyers without compromising on
-                                quality.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature Box 4 -->
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-truck"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Quick Delivery</h3>
-                            <p>Fast and reliable shipping options available nationwide with special delivery windows.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature Box 5 -->
-                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-people"></i>
-                        </div>
-                        <div class="feature-content">
-                            <h3>Expert Support</h3>
-                            <p>Our knowledgeable team is ready to help you select the perfect products for your
-                                celebration.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Feature Box 6 -->
+            <!-- Features Grid -->
+            <div class="row features-grid">
+                <!-- Feature 1 -->
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature-box">
-                        <div class="feature-icon">
-                            <i class="bi bi-box-seam"></i>
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.1s">
+                        <div class="card-header">
+                            <div class="advantage-icon premium-icon">
+                                <i class="bi bi-trophy"></i>
+                            </div>
+                            <h3 class="advantage-title">Unrivaled Quality</h3>
                         </div>
-                        <div class="feature-content">
-                            <h3>Diverse Selection</h3>
-                            <p>From sparklers to grand finales, our extensive inventory has something for every
-                                occasion.</p>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                Every firework in our collection undergoes meticulous quality control, sourced
+                                exclusively from world-renowned manufacturers with decades of expertise.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ ISO Certified</span>
+                                <span class="indicator">✓ Lab Tested</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.2s">
+                        <div class="card-header">
+                            <div class="advantage-icon safety-icon">
+                                <i class="bi bi-shield-fill-check"></i>
+                            </div>
+                            <h3 class="advantage-title">Safety Excellence</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                Our comprehensive safety protocols ensure every product meets stringent international
+                                standards, giving you peace of mind for every celebration.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ Safety Certified</span>
+                                <span class="indicator">✓ Compliance Verified</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.3s">
+                        <div class="card-header">
+                            <div class="advantage-icon value-icon">
+                                <i class="bi bi-calculator"></i>
+                            </div>
+                            <h3 class="advantage-title">Unbeatable Value</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                Access wholesale pricing structures designed for both individual customers and bulk
+                                purchasers, maximizing your budget without sacrificing quality.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ Bulk Discounts</span>
+                                <span class="indicator">✓ Price Match</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.4s">
+                        <div class="card-header">
+                            <div class="advantage-icon delivery-icon">
+                                <i class="bi bi-lightning-charge"></i>
+                            </div>
+                            <h3 class="advantage-title">Lightning Fast Delivery</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                Our advanced logistics network ensures rapid, secure delivery across all 50 states with
+                                specialized handling for pyrotechnic products.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ Express Options</span>
+                                <span class="indicator">✓ Tracking Included</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.5s">
+                        <div class="card-header">
+                            <div class="advantage-icon support-icon">
+                                <i class="bi bi-headset"></i>
+                            </div>
+                            <h3 class="advantage-title">Master-Level Support</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                Our certified pyrotechnic specialists provide personalized consultation, helping you
+                                design the perfect display for any occasion or budget.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ 24/7 Support</span>
+                                <span class="indicator">✓ Expert Guidance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="advantage-card hvr-float-shadow wow fadeInUp" data-wow-duration="1s"
+                        data-wow-delay="0.6s">
+                        <div class="card-header">
+                            <div class="advantage-icon variety-icon">
+                                <i class="bi bi-collection"></i>
+                            </div>
+                            <h3 class="advantage-title">Endless Possibilities</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="advantage-description">
+                                From intimate sparkler moments to grand finale spectacles, our vast inventory spans
+                                every category of celebration fireworks available.
+                            </p>
+                            <div class="quality-indicators">
+                                <span class="indicator">✓ 500+ Products</span>
+                                <span class="indicator">✓ Custom Packages</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row about-last-btn-row">
+            <!-- Call to Action -->
+            <div class="row cta-section">
                 <div class="col-12 text-center">
-                    <a href="products.php" class="theme-button btn-lg">Explore Our Collection <i
-                            class="bi bi-arrow-right"></i></a>
+                    <div class="cta-container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <h3 class="cta-title">Ready to Experience the Difference?</h3>
+                        <p class="cta-subtitle">Join thousands of satisfied customers who trust us for their
+                            celebrations</p>
+                        <a href="products.php" class="cta-button hvr-bounce-to-right">
+                            <span class="button-text">Browse Our Premium Collection</span>
+                            <i class="bi bi-arrow-right-circle"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="floating-element element-1">
+            <i class="bi bi-star-fill"></i>
+        </div>
+        <div class="floating-element element-2">
+            <i class="bi bi-diamond-fill"></i>
         </div>
     </section>
 
 
     <?php include_once "footer.php"; ?>
     <div class="fixed point w0">
-        <a href="https://api.whatsapp.com/send?phone=91">
+        <a href="https://api.whatsapp.com/send?phone=919999999999">
             <img src="images/whatsappicon.png" class="priceicn float-left" alt="" title="">
         </a>
     </div>
@@ -299,12 +416,12 @@
         <span class="time-of-year">
             <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
             <div class="tooltip text-white carter text-center"> For More Details Call <br>
-                <i class="fa fa-phone text-white"></i> +91
+                <i class="fa fa-phone text-white"></i> +91 99999 99999
             </div>
         </span>
     </div>
     <div class="fixed point1 w0 d-lg-none">
-        <a href="tel:+91">
+        <a href="tel:+919999999999">
             <img src="images/callicon.png" class="priceicn float-left" alt="" title="">
         </a>
     </div>

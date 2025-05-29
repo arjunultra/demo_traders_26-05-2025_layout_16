@@ -95,10 +95,15 @@
                         distributor.</span>
                 </p>
             </div>
-            <div class="col-12 col-md-6 text-md-end">
-                <a href="#" class="small text-muted me-3 hvr-underline-from-center">Privacy Policy</a>
-                <a href="#" class="small text-muted me-3 hvr-underline-from-center">Terms of Service</a>
-                <a href="#" class="small text-muted hvr-underline-from-center">Safety Guidelines</a>
+            <div class="col-12 col-md-4 text-md-end">
+                <a href="contact.php" class="small text-muted me-3 hvr-underline-from-center">Privacy Policy</a>
+                <a href="contact.php" class="small text-muted me-3 hvr-underline-from-center">Terms of Service</a>
+                <a href="safetytips.php" class="small text-muted hvr-underline-from-center">Safety Guidelines</a>
+            </div>
+            <div class="col-12 col-md-2 mb-3 mb-md-0">
+                <p class="mb-0 small text-muted">
+                    Website Developed by <a target="_blank" href="https://www.srisoftwarez.com/">Sri Softwarez</a>
+                </p>
             </div>
         </div>
     </div>
