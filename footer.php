@@ -1,5 +1,5 @@
 <footer class="py-5 fireworks-footer bg-black text-white wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container">
+    <div class="container-fluid px-5">
         <div class="row">
 
             <!-- Brand Column -->
@@ -20,9 +20,9 @@
             </div>
 
             <!-- Navigation Column -->
-            <div class="col-6 col-md-3 col-lg-2 mb-4 mb-md-0">
-                <h5 class="footer-title position-relative pb-2 mb-4">Quick Links</h5>
-                <ul class="footer-nav list-unstyled">
+            <div class="col-6 col-md-6 col-lg-2 mb-4 mb-md-0">
+                <h5 class="footer-title position-relative pb-2 mb-4 ml-md-5">Quick Links</h5>
+                <ul class="footer-nav list-unstyled ml-md-5">
                     <li class="mb-2"><a href="index.php"
                             class="text-white hvr-sweep-to-right d-block py-1 px-2">Home</a></li>
                     <li class="mb-2"><a href="about.php"
@@ -36,7 +36,7 @@
             </div>
 
             <!-- Hours Column -->
-            <div class="col-6 col-md-3 col-lg-3 mb-4 mb-md-0">
+            <div class="col-6 col-md-6 col-lg-3 mb-4 mb-md-0">
                 <h5 class="footer-title position-relative pb-2 mb-4">Opening Hours</h5>
                 <ul class="footer-hours list-unstyled">
                     <li
@@ -64,8 +64,8 @@
 
             <!-- Contact Column -->
             <div class="col-12 col-md-6 col-lg-3 mt-md-4 mt-lg-0">
-                <h5 class="footer-title position-relative pb-2 mb-4">Contact Us</h5>
-                <ul class="footer-contact list-unstyled">
+                <h5 class="footer-title position-relative pb-2 mb-4 ml-md-5">Contact Us</h5>
+                <ul class="footer-contact list-unstyled ml-md-5">
                     <li class="d-flex mb-3 hvr-icon-bounce">
                         <div class="me-3 text-yellow hvr-icon"><i class="bi bi-geo-alt-fill fs-5 mr-2"></i></div>
                         <p class="mb-0">123 Fireworks Avenue<br>Spark City, TN 626123</p>
@@ -99,12 +99,10 @@
                         distributor.</span>
                 </p>
             </div>
-            <div class="col-12 col-md-4 text-md-end">
-                <a href="contact.php" class="small text-muted me-3 hvr-underline-from-center">Privacy Policy</a>
-                <a href="contact.php" class="small text-muted me-3 hvr-underline-from-center">Terms of Service</a>
+            <div class="col-12 col-md-2 text-md-end">
                 <a href="safetytips.php" class="small text-muted hvr-underline-from-center">Safety Guidelines</a>
             </div>
-            <div class="col-12 col-md-2 mb-3 mb-md-0">
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
                 <p class="mb-0 small text-muted">
                     Website Developed by <a target="_blank" href="https://www.srisoftwarez.com/">Sri Softwarez</a>
                 </p>

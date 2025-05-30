@@ -439,7 +439,7 @@
 	</section>
 	<!-- Brands Showcase Section -->
 	<section class="brands-section py-5">
-		<div class="container">
+		<div class="container-fluid px-5">
 			<!-- Section Header -->
 			<div class="row wow fadeIn" data-wow-delay="0.1s">
 				<div class="col-12 col-md-12 col-lg-12 text-center">

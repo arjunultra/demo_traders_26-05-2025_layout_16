@@ -91,53 +91,41 @@
             <!-- Core Values Section -->
             <div class="values-section">
                 <h3 class="values-title wow fadeInUp" data-wow-duration="1s">Our Core Values</h3>
-
                 <div class="row">
-                    <div class="col-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
                             <div class="value-icon vision-icon">
                                 <i class="bi bi-eye"></i>
                             </div>
-                            <h4 class="value-title">Vision</h4>
-                            <p class="value-description">
-                                To be the leading fireworks distributor that transforms ordinary moments into
-                                extraordinary
-                                memories, while setting the gold standard for safety and innovation in the pyrotechnics
-                                industry.
-                            </p>
+                            <div class="value-content">
+                                <h4 class="value-title">Vision</h4>
+                                <p class="value-description">
+                                    To be the leading fireworks distributor that transforms ordinary moments into
+                                    extraordinary memories, while setting the gold standard for safety and innovation in
+                                    the pyrotechnics industry.
+                                </p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-4 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                             <div class="value-icon mission-icon">
                                 <i class="bi bi-bullseye"></i>
                             </div>
-                            <h4 class="value-title">Mission</h4>
-                            <p class="value-description">
-                                We provide premium quality fireworks and exceptional service to retailers and consumers,
-                                ensuring every celebration is safe, spectacular, and memorable while fostering long-term
-                                partnerships.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-4 col-lg-4">
-                        <div class="value-card hvr-float wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-                            <div class="value-icon values-icon">
-                                <i class="bi bi-gem"></i>
+                            <div class="value-content">
+                                <h4 class="value-title">Mission</h4>
+                                <p class="value-description">
+                                    We provide premium quality fireworks and exceptional service to retailers and
+                                    consumers, ensuring every celebration is safe, spectacular, and memorable while
+                                    fostering long-term partnerships.
+                                </p>
                             </div>
-                            <h4 class="value-title">Values</h4>
-                            <p class="value-description">
-                                Safety first, quality always, and customer satisfaction above all. We believe in
-                                integrity,
-                                innovation, and building lasting relationships that light up communities across the
-                                nation.
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!-- second section -->
@@ -215,7 +203,7 @@
     <!-- Why Choose Us Section -->
     <!-- Why Choose Us Section -->
     <section class="excellence-showcase">
-        <div class="container">
+        <div class="container-fluid px-5">
             <!-- Section Header -->
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8 text-center">

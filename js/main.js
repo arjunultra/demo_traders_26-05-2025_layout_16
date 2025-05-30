@@ -177,3 +177,47 @@ document.addEventListener('DOMContentLoaded', function() {
       brandSwiper.autoplay.start();
   });
 });
+// navbar fixed to top on scroll
+$(document).ready(function() {
+  let lastScrollTop = 0;
+  const navbar = $('.navbar');
+
+  function getContactBarHeight() {
+      const windowWidth = $(window).width();
+      
+      if (windowWidth < 576) { // Mobile screens
+          return $('.fireworks-header .header-announcement').outerHeight() + 380;
+      } else if (window.matchMedia('(min-width: 768px) and (max-width: 991.98px)').matches) { // Tablets
+          return $('.fireworks-header .header-announcement').outerHeight() + 195;
+      } else { // Desktop screens
+          return $('.fireworks-header .header-announcement').outerHeight() + 100;
+      }
+  }
+
+  $(window).on('scroll resize', function() {
+      const scrollTop = $(this).scrollTop();
+      const contactBarHeight = getContactBarHeight();
+
+      if (scrollTop > lastScrollTop) {
+          // Hide everything including the navbar when scrolling down
+          navbar.slideUp();
+      } else {
+          // Show navbar at top:0 when scrolling up
+          navbar.css('top', '0').slideDown();
+      }
+
+      // Adjust navbar position when at the top
+      if (scrollTop <= contactBarHeight) {
+          navbar.css('top', contactBarHeight + 'px');
+      }
+
+      lastScrollTop = scrollTop;
+  });
+
+  // Make the navbar fixed to top
+  navbar.addClass('nav-fixed-top');
+});
+
+
+
+  

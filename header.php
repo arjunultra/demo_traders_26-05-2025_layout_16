@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <div class="announcement-marquee text-yellow small left-marquee ">
+                    <div class="announcement-marquee text-yellow small left-marquee">
                         <span class="hvr-bounce-to-right">
                             <i class="bi bi-emoji-heart-eyes"></i> Diwali Special: 30% OFF on bulk orders! Limited stock
                             available.
@@ -20,7 +20,6 @@
             </div>
         </div>
     </div>
-
     <!-- Main Header Area -->
     <div class="header-main bg-yellow py-3 shadow-sm">
         <div class="container-fluid px-lg-5">
@@ -38,7 +37,6 @@
                         </div>
                     </a>
                 </div>
-
                 <!-- Info Boxes Column -->
                 <div class="col-lg-9 col-md-12">
                     <div class="row">
@@ -56,7 +54,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Contact Box -->
                         <div class="col-lg-4 col-md-4 col-12 mb-3 mb-md-0 wow fadeIn" data-wow-delay="0.4s">
                             <div class="info-box hvr-float-shadow p-3 rounded">
@@ -71,7 +68,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Hours Box -->
                         <div class="col-lg-4 col-md-4 col-12 wow fadeIn" data-wow-delay="0.6s">
                             <div class="info-box hvr-float-shadow p-3 rounded">
@@ -91,15 +87,13 @@
             </div>
         </div>
     </div>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-red py-0 sticky-top wow fadeInDown">
         <div class="container-fluid px-lg-5">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mainNav"
+            <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span> MENU
             </button>
-
             <div class="collapse navbar-collapse" id="mainNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item px-lg-3 px-2 <?php if ($page == "home") {
@@ -142,7 +136,6 @@
         </div>
     </nav>
 </header>
-
 
 <script src="js/jquery.min.js"></script>
 <script src="js/marquee.js"></script>
