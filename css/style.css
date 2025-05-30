@@ -2881,7 +2881,12 @@ section.index-parallax .theme-btn:hover {
   .welcome-section .welcome-section-title {
     font-size: 2rem;
   }
-
+  .welcome-section .welcome-section-badge {
+    transform: none;
+    box-shadow: none;
+    top: -26px;
+    right: 11%;
+  }
   .welcome-section .welcome-section-image-container {
     transform: none;
     margin-bottom: 2rem;
@@ -2894,6 +2899,10 @@ section.index-parallax .theme-btn:hover {
   .welcome-section .welcome-section-contact-icon {
     width: 60px;
     height: 60px;
+  }
+  .welcome-section .certificate-icon {
+    width: 40px;
+    height: 40px;
   }
   /* header */
   .fireworks-header .header-main {

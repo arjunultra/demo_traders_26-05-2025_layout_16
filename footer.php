@@ -39,19 +39,23 @@
             <div class="col-6 col-md-3 col-lg-3 mb-4 mb-md-0">
                 <h5 class="footer-title position-relative pb-2 mb-4">Opening Hours</h5>
                 <ul class="footer-hours list-unstyled">
-                    <li class="d-flex justify-content-between mb-3 py-2 px-3 bg-dark rounded">
+                    <li
+                        class="d-flex flex-column flex-md-row flex-lg-row justify-content-between mb-3 py-2 px-3 bg-dark rounded">
                         <span>Weekdays:</span>
                         <span class="text-yellow">9AM - 8PM</span>
                     </li>
-                    <li class="d-flex justify-content-between mb-3 py-2 px-3 bg-dark rounded">
+                    <li
+                        class="d-flex flex-column flex-md-row flex-lg-row justify-content-between mb-3 py-2 px-3 bg-dark rounded">
                         <span>Weekends:</span>
                         <span class="text-yellow">10AM - 9PM</span>
                     </li>
-                    <li class="d-flex justify-content-between mb-3 py-2 px-3 bg-dark rounded">
+                    <li
+                        class="d-flex flex-column flex-md-row flex-lg-row justify-content-between mb-3 py-2 px-3 bg-dark rounded">
                         <span>Holidays:</span>
                         <span class="text-yellow">8AM - 10PM</span>
                     </li>
-                    <li class="d-flex justify-content-between py-2 px-3 bg-dark rounded">
+                    <li
+                        class="d-flex flex-column flex-md-row flex-lg-row justify-content-between py-2 px-3 bg-dark rounded">
                         <span>Festivals:</span>
                         <span class="text-yellow">24 Hours</span>
                     </li>
@@ -69,17 +73,17 @@
                     <li class="d-flex mb-3 hvr-icon-bounce">
                         <div class="me-3 text-yellow hvr-icon"><i class="bi bi-telephone-fill fs-5 mr-2"></i></div>
                         <p class="mb-0">
-                            <a href="tel:+919876543210" class="text-white text-decoration-none">+91 98765 43210</a><br>
-                            <a href="tel:+918765432109" class="text-white text-decoration-none">+91 87654 32109</a>
+                            <a href="tel:+919876543210" class="text-white text-decoration-none">+91 99999 99999</a><br>
+                            <a href="tel:+918765432109" class="text-white text-decoration-none">+91 88888 88888</a>
                         </p>
                     </li>
                     <li class="d-flex hvr-icon-bounce">
                         <div class="me-3 text-yellow hvr-icon"><i class="bi bi-envelope-fill fs-5 mr-2"></i></div>
                         <p class="mb-0">
                             <a href="mailto:sales@fireworkshub.com"
-                                class="text-white text-decoration-none">sales@fireworkshub.com</a><br>
+                                class="text-white text-decoration-none">sales@demotraders.com</a><br>
                             <a href="mailto:support@fireworkshub.com"
-                                class="text-white text-decoration-none">support@fireworkshub.com</a>
+                                class="text-white text-decoration-none">support@demotraders.com</a>
                         </p>
                     </li>
                 </ul>

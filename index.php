@@ -423,10 +423,16 @@
 					</h2>
 					<p class="lead text-warning text-uppercase font-weight-bold py-4">Premium Quality • Jaw-Dropping
 						Effects • Unmatched Brilliance</p>
-					<div class="btn-container d-flex flex-column align-items-center justify-content-center"><a
-							href="products.php" class="theme-btn hvr-bob">Explore Our
+					<div
+						class="btn-container flex-column align-items-center justify-content-center d-none d-md-none d-lg-flex">
+						<a href="products.php" class="theme-btn hvr-bob">Explore Our
 							Explosive
-							Collection</a></div>
+							Collection</a>
+					</div>
+					<div
+						class="btn-container d-flex flex-column align-items-center justify-content-center d-lg-none d-md-none d-flex">
+						<a href="products.php" class="theme-btn hvr-bob">Buy Now</a>
+					</div>
 				</div>
 			</div>
 		</div>
